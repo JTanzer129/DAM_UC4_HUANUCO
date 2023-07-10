@@ -78,6 +78,7 @@ public class NotaFragment extends Fragment {
             notaList.add(new Nota("Trab. Acad.", "Para el trabajo académico cada estudiante debe elaborar un video, desarrollando el caso Notas y Listas. De inicio a Fin.",false, android.R.color.holo_green_light));
             notaList.add(new Nota("cumpleaños Rakauskas","Para el cumpleaños del delegado, cada estudiante debe traer un bocadito y la profesora traerá la torta para el salón. La temática de la fiesta será: GitHub for Ever", true, android.R.color.holo_orange_light));
             notaList.add(new Nota("Lista de la compra","comprar pan tostado y fruta", true, android.R.color.holo_blue_light));
+            notaList.add(new Nota("TA","Estudiar", true, android.R.color.holo_blue_light));
             recyclerView.setAdapter(adapterNotas);
         }
         return view;
